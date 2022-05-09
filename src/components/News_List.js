@@ -1,26 +1,22 @@
 import React from 'react'
-import JSON from '../12.1 db.json.json'
+// import JSON from '../12.1 db.json.json'
 import '../css/style.css'
 
 
 // Components
 import NewsListItem from './News_List_Item'
 
-const NewsList =()=>{
-
-   const loops = JSON.map((loop)=>{
+const NewsList =(props)=>{
+   const items = props.news.map((item)=>{
            return (
-            <ul >
-            <li><h2>{loop.title}</h2></li>
-            <li>{loop.feed}</li>
-        </ul>
+           <NewsListItem key={item.id} item ={item}/>
             //    <NewsListItem/>
            )
    })
 
     return(
         <div className='newsList'>
-          {loops}
+          {items}
         </div>
     )
 }
