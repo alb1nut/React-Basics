@@ -1,8 +1,11 @@
+@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
+
 *{
  box-sizing: border-box;
 }
 
 body{
+    font-family: 'Muli', sans-serif;
     margin: 0;
     padding: 0;
 }
@@ -29,8 +32,28 @@ body{
     margin: 0;
     padding: 15px 50px;
     border: 0;
+    border-radius: 5px;
 }
 
 .header input:focus{
     outline: 0;
+}
+
+
+
+.newsList{
+    margin: 0 100px;
+}
+
+.newsList li{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+}
+
+.newsList ul{
+    margin: auto;
+
 }
