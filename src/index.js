@@ -8,8 +8,8 @@ import Header from './components/Header'
 const App = () => {
   return(
     <div>
-      <Header text ='Hello'>I am Albert</Header>
-      <Header text ='World'/>
+      <Header text ='Logo'/>
+      
     </div>
   )
 }
