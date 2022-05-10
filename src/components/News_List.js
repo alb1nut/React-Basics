@@ -16,6 +16,7 @@ const NewsList =(props)=>{
 
     return(
         <div className='newsList'>
+          {props.children}
           {items}
         </div>
     )
