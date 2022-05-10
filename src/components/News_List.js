@@ -1,6 +1,6 @@
 import React from 'react'
 // import JSON from '../12.1 db.json.json'
-import '../css/style.css'
+
 
 
 // Components

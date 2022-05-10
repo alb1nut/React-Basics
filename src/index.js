@@ -12,13 +12,19 @@ import NewsList from './components/News_List';
 
 class App extends Component{
   state={
-    news:JSON
+    news:JSON,
+
 
   }
+ getkeywords =(event)=>{
+  // console.log(event.target.value);
+  
+}
+
   render(){
     return(
       <div>
-        <Header text ='Logo'/>
+        <Header keywords={this.getkeywords}  text ='Logo'/>
         <NewsList  news={this.state.news}>
           <h1>
             The news are: 
@@ -26,7 +32,6 @@ class App extends Component{
         </NewsList>
       </div>
     )
-
   }
 }
 

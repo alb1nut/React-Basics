@@ -42,7 +42,8 @@ body{
 
 
 .newsList{
-    margin: 0 100px;
+    padding:0 100px ;
+    /* margin: 0 100px; */
 }
 
 .newsList li{
@@ -56,4 +57,10 @@ body{
 .newsList ul{
     margin: auto;
 
+}
+
+.newsItem{
+    font-style: inherit;
+    border-bottom: 3px solid #000;
+    padding-bottom: 10px;
 }
