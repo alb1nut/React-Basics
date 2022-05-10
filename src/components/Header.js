@@ -1,4 +1,4 @@
-import React, { Component } from 'react'
+import React from 'react'
 import '../css/style.css'
 
 
@@ -6,7 +6,7 @@ const Header = (props) =>{
      
  return(
       <header className='header'>
-        <h2 >Logo</h2>
+        <h2 >{props.text}</h2>
         <input type='text' onChange={ props.keywords}/>
        
     </header>

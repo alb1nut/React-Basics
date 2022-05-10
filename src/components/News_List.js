@@ -1,7 +1,4 @@
 import React from 'react'
-// import JSON from '../12.1 db.json.json'
-
-
 
 // Components
 import NewsListItem from './News_List_Item'
